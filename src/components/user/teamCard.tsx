@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+
 import { BACKEND } from "../../api/url";
 
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
 }
 
 const TeamCard = ({ teams, setTeamToLook, setIsRemoved }: Props) => {
-  const navigate = useNavigate();
+  
 
   const handleTeamRemoval = async (teamId: number | string) => {
     const response = await fetch(BACKEND + "users/remove-team", {
