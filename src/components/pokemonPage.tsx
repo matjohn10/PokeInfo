@@ -3,7 +3,6 @@ import OtherPokeTable from "./otherPokeTable";
 import axios from "axios";
 import "../componentCss/pokemonPage.css";
 import { BACKEND } from "../api/url";
-import { useRef, useEffect } from "react";
 import TypeCard from "./typeCard";
 
 interface Props {
