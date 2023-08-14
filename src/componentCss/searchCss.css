@@ -20,6 +20,10 @@
   width: 236px;
 }
 
+.form-control {
+  --bs-body-color: var(--text-color) !important;
+}
+
 .search-item-link {
   text-decoration: none;
   color: var(--text-color);
