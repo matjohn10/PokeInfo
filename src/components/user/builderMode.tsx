@@ -41,7 +41,7 @@ const BuilderMode = ({ pokemons, img, builderMode, isTeamAdded }: Props) => {
     },
     // enabled: !!toFetch,
   });
-
+  void data;
   const clearDup = (data: Map<string, string[]>) => {
     let temp: string[] = [];
     for (let [key, value] of data) {
@@ -201,7 +201,7 @@ const BuilderMode = ({ pokemons, img, builderMode, isTeamAdded }: Props) => {
       dateCreation: fullDate,
       team: { ...teamObj, name: teamName },
     };
-    const response = await fetch("http://localhost:3000/users/team", {
+    const response = await fetch(BACKEND + "users/team", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
