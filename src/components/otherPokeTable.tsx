@@ -1,10 +1,10 @@
-import { useQuery, useQueries } from "@tanstack/react-query";
+import { useQueries } from "@tanstack/react-query";
 import { useState } from "react";
 import { BACKEND } from "../api/url";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import LoadingScreen from "./loader/loadingScreen";
-import sleep from "../utils/timeout";
+
 
 interface Props {
   types: string[];
