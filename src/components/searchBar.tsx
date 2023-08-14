@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import "../componentCss/searchCss.css";
 import { Link } from "react-router-dom";
 
@@ -8,20 +8,8 @@ interface Props {
 }
 
 const SearchBar = ({ pokemons, setCarouselName }: Props) => {
-  const dropMenu = useRef<HTMLDivElement>(null);
-  const input = useRef<HTMLInputElement>(null);
-  // const [dropdown, setDropdown] = useState(false);
-
   const [searchValue, setSearchValue] = useState("");
-  const handleDropdown = (e: MouseEvent) => {
-    if (
-      dropMenu.current &&
-      document.hasFocus() !== input.current &&
-      !dropMenu.current.contains(e.target)
-    ) {
-      setSearchValue("");
-    }
-  };
+
   //   const [filteredItems, setFilteredItems] = useState([]);
   let filteredItems: string[] = [];
   if (/^-?\d+$/.test(searchValue)) {
@@ -49,7 +37,6 @@ const SearchBar = ({ pokemons, setCarouselName }: Props) => {
   //     setDropdown(true);
   //   }
   // };
-  document.addEventListener("mousedown", handleDropdown);
 
   return (
     <>
@@ -57,7 +44,6 @@ const SearchBar = ({ pokemons, setCarouselName }: Props) => {
         <div className="input-container input-group-lg">
           <input
             className="form-control me-2 "
-            ref={input}
             type="search"
             placeholder="Search"
             aria-label="Search"
@@ -66,7 +52,7 @@ const SearchBar = ({ pokemons, setCarouselName }: Props) => {
               setSearchValue(e.currentTarget.value);
             }}
           />
-          <div className="input-selection-container" ref={dropMenu}>
+          <div className="input-selection-container">
             {filteredItems
               .slice(0, filteredItems.length < 10 ? filteredItems.length : 10)
               .map((item) => {
