@@ -1,0 +1,155 @@
+:root {
+  --text-color: #2b0c08;
+  --background: #fdf3f2;
+  --primary-btn: #f7343d;
+  --secondary-btn: #f8dcd8;
+  --hover-btn: #d82730ca;
+  --accent-color: #f7343d;
+  --disabled-btn: #db3a4280;
+
+  --root-padding: 20px;
+}
+
+/* Navigation Styles */
+* {
+  font-family: "Skranji", cursive;
+}
+
+/* Text: #2b0c08, rgb(43, 12, 8)
+    Background: #fdf3f2
+    Primary Btn: #f7343d
+    Secondary Btn: #f8dcd8
+    Accent: #f7343d */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--background);
+  padding: var(--root-padding) var(--root-padding) 0 var(--root-padding);
+}
+.red-nav {
+  background-color: var(--background);
+  max-width: 100%;
+}
+
+.white-btn-border {
+  color: white;
+}
+
+.nav-spacing {
+  gap: 3rem;
+}
+
+.li-outline-light {
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+.link-white {
+  color: var(--text-color);
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid var(--text-color);
+  border-radius: 6px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.link-white:active {
+  color: var(--text-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link-white:hover {
+  color: rgba(0, 0, 0, 0.489);
+}
+
+.search-btn {
+  color: var(--text-color);
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  border-radius: 6px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.brand-link {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+.brand-link:active {
+  color: var(--text-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+.brand-link:hover {
+  color: black;
+}
+
+.nav-spacing {
+  max-width: 100vw;
+}
+
+/* random */
+.previous-page-btn {
+  position: absolute;
+  left: 2rem;
+  width: 30px;
+  height: 30px;
+}
+
+.previous-page-btn > img:hover {
+  cursor: pointer;
+}
+
+.previous-page-btn > img {
+  max-width: 100%;
+}
+
+/* HOME CSS */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+}
+
+.intro-text {
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.intro-text > p {
+  margin: 1rem 16rem 0 16rem;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature > p {
+  margin: 0.5rem 26rem 0 26rem;
+}
+
+.feature > h2 {
+  margin-top: 1.3rem;
+  color: var(--text-color);
+}
+
+.last-feature {
+  margin-bottom: 3rem;
+}

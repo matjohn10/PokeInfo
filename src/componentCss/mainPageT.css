@@ -1,0 +1,143 @@
+/* Animations */
+@keyframes move-one {
+  from {
+    top: 30%;
+    left: 38%;
+    z-index: 100;
+  }
+  to {
+    top: 29%;
+    left: 37%;
+    z-index: 90;
+  }
+}
+
+@keyframes move-two {
+  from {
+    top: 29%;
+    left: 39%;
+    z-index: 90;
+  }
+  to {
+    top: 30%;
+    left: 38%;
+    z-index: 100;
+  }
+}
+
+@keyframes move-three {
+  from {
+    top: 28%;
+    left: 40%;
+    z-index: 80;
+  }
+  to {
+    top: 29%;
+    left: 39%;
+    z-index: 90;
+  }
+}
+
+@keyframes move-four {
+  from {
+    top: 28%;
+    left: 36%;
+  }
+  to {
+    top: 28%;
+    left: 40%;
+  }
+}
+
+@keyframes move-five {
+  from {
+    top: 29%;
+    left: 37%;
+    z-index: 90;
+  }
+  to {
+    top: 28%;
+    left: 36%;
+    z-index: 80;
+  }
+}
+
+.main-container {
+  border: 1px solid blue;
+  height: 1dvh;
+}
+
+.first-cont {
+  border: 3px solid green;
+  background-color: green;
+  top: 30%;
+  left: 38%;
+  z-index: 100;
+}
+
+.second-cont {
+  border: 3px solid orange;
+  background-color: orange;
+  top: 29%;
+  left: 39%;
+  z-index: 90;
+}
+
+.third-cont {
+  border: 3px solid red;
+  background-color: red;
+  top: 28%;
+  left: 40%;
+  z-index: 80;
+}
+.fourth-cont {
+  border: 3px solid blue;
+  background-color: blue;
+  top: 28%;
+  left: 36%;
+  z-index: 80;
+}
+
+.fifth-cont {
+  border: 3px solid violet;
+  background-color: violet;
+  top: 29%;
+  left: 37%;
+  z-index: 90;
+}
+
+.move-test {
+  position: absolute;
+  width: 23rem;
+  height: 21rem;
+}
+
+.move-ani-one {
+  animation-name: move-one;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.move-ani-two {
+  animation-name: move-two;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.move-ani-three {
+  animation-name: move-three;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.move-ani-four {
+  animation-name: move-four;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.move-ani-five {
+  animation-name: move-five;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}

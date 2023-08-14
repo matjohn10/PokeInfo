@@ -1,0 +1,150 @@
+/* Badge Style */
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.85rem;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--secondary-btn);
+  background-color: var(--secondary-btn);
+}
+
+.login-signup-link {
+  text-decoration: none;
+  color: var(--text-color);
+
+  display: block;
+  margin-left: 0.85rem;
+  white-space: pre-line;
+}
+
+.badge-container > img {
+  max-width: 100%;
+}
+
+.badge-img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.loggout-badge {
+  display: none;
+  position: absolute;
+  visibility: none;
+  border-radius: 15px;
+  top: 5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-btn);
+  width: 80px;
+  height: 40px;
+}
+
+.badge-container:hover > .loggout-badge {
+  display: flex;
+  visibility: visible;
+}
+
+.loggout-badge:hover {
+  cursor: pointer;
+  background-color: var(--hover-btn);
+}
+
+/* PROFILE/SETTINGS CSS */
+
+.main-profile-setting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  width: 90%;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem 6rem;
+  width: 50%;
+}
+
+.profile-img {
+  border: 1px solid black;
+  width: 70%;
+  overflow: hidden;
+}
+
+.profile-img > img {
+  max-width: 100%;
+}
+
+.info-settings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1rem;
+  width: 50%;
+  padding-left: 2rem;
+  padding-top: 6rem;
+}
+
+.small-info-settings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1rem;
+  padding: 1.5rem 4rem;
+  width: fit-content;
+  border: 1px solid var(--secondary-btn);
+  background-color: var(--secondary-btn);
+  border-radius: 15px;
+}
+
+.profile-info-p {
+  color: var(--text-color);
+  margin: 0;
+}
+
+.profile-password,
+.profile-teams {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-pic-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-change-pwd-btn {
+  border: 1px solid var(--text-color);
+  background-color: var(--text-color);
+  border-radius: 10px;
+  color: white;
+  padding: 0.15rem 0.65rem;
+}
+
+.profile-change-pwd-btn:hover {
+  cursor: pointer;
+  background-color: #2b0c08ee;
+}
+
+.profile-change-pwd-btn:active {
+  background-color: var(--hover-btn);
+  border: 1px solid var(--hover-btn);
+}
+
+.extra-margin-bot {
+  margin-bottom: 6rem;
+}

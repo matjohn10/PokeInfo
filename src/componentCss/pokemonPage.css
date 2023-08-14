@@ -1,0 +1,229 @@
+.pokemon-container {
+  display: flex;
+  gap: 2rem;
+  padding: 25px 100px;
+  background-color: var(--background);
+  /* grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0px; */
+  justify-items: center;
+  align-items: center;
+}
+
+.other-pokemon {
+  /* grid-area: 1 / 1 / 6 / 3; */
+  width: 25%;
+  grid-area: 1 / 1 / 3 / 3;
+
+  height: 100%;
+}
+
+.test-template {
+  width: 75%;
+}
+.other-pokemon > h3 {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  color: var(--text-color);
+}
+.poke-table {
+  /* border: 4px solid black;
+  border-radius: 15px; */
+  height: 800px;
+  max-height: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.pokemon-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* grid-area: 1 / 4 / 2 / 7; */
+}
+.pokemon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid var(--text-color); */
+  background-color: var(--secondary-btn);
+  box-shadow: 0px 6px 12px -4px var(--text-color);
+  -webkit-box-shadow: 0px 6px 12px -4px var(--text-color);
+  -moz-box-shadow: 0px 6px 12px -4px var(--text-color);
+  border-radius: 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.pokemon-img > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.pokemon-des {
+  grid-area: 3 / 4 / 4 / 7;
+  height: 100%;
+  width: 100%;
+
+  color: var(--text-color);
+}
+.pokemon-des > p {
+  display: block;
+  text-align: center;
+}
+
+.pokemon-info {
+  /* grid-area: 1 / 3 / 4 / 5; */
+  grid-area: 2 / 4 / 3 / 7;
+  height: 100%;
+  width: 100%;
+}
+
+.pokemon-info > p {
+  margin: 0;
+}
+
+.pokemon-id-name-container {
+  display: flex;
+
+  justify-content: center;
+  gap: 1rem;
+}
+.pokemon-id-name-container > p {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
+.pokemon-types-combat {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+@keyframes card-reveal {
+  from {
+    height: 5rem;
+    width: 27%;
+  }
+  to {
+    height: 7rem;
+    width: 45%;
+  }
+}
+
+@keyframes card-hide {
+  from {
+    height: 7rem;
+    width: 45%;
+  }
+  to {
+    height: 5rem;
+    width: 27%;
+  }
+}
+
+.card-reveal {
+  animation-name: card-reveal;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.card-hide {
+  animation-name: card-hide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.pokemon-type-info {
+  display: flex;
+  margin: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  width: 27%;
+  height: 5rem;
+  flex-direction: column;
+  color: white;
+  background-color: var(--text-color);
+  border-radius: 15px;
+}
+
+.pokemon-type-info > p {
+  color: white;
+  margin: 0;
+}
+
+.pokemon-type-info:hover {
+  cursor: pointer;
+  background-color: #2b0c08ee;
+}
+
+.single {
+  width: 27%;
+}
+
+.type-btn-container {
+  display: flex;
+  grid-area: 1 / 1 / 2 / 4;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.types-container {
+  grid-area: 2 / 1 / 9 / 4;
+  border-radius: 18px;
+  overflow-y: scroll;
+
+  box-shadow: 0px -2px 12px 2px var(--text-color);
+  -webkit-box-shadow: 0px -2px 12px 2px var(--text-color);
+  -moz-box-shadow: 0px -2px 12px 2px var(--text-color);
+  background-color: var(--text-color);
+}
+
+.list-group-item {
+  pointer-events: none;
+  background-color: var(--secondary-btn);
+}
+.list-group-item-secondary {
+  background-color: var(--secondary-btn) !important;
+}
+
+.types-container-pokemon {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.types-container-item {
+  display: flex;
+  gap: 8%;
+  background-color: var(--secondary-btn);
+}
+
+.types-container-pokeimg {
+  height: 30px;
+  width: 30px;
+  max-height: 100%;
+}
+.types-container-pokeimg > img {
+  max-width: 100%;
+}
+
+.type-btn {
+  display: block;
+  background-color: var(--primary-btn);
+  padding: 10px;
+  width: 75px;
+  border-radius: 10px;
+}
+
+.type-btn:hover {
+  background-color: var(--hover-btn);
+}

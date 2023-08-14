@@ -1,0 +1,210 @@
+.main-connection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 280px);
+  /* background-image: url(./connection-removebg.png);
+  background-size: contain;
+  background-position: center, right bottom;
+  background-repeat: no-repeat, no-repeat; */
+}
+
+.connection-container {
+  color: var(--text-color);
+  display: flex;
+  padding: 50px 30px 0 30px;
+  margin: 2rem 0;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid var(--secondary-btn);
+  box-shadow: 0 0 15px 3px var(--text-color);
+  border-radius: 20px;
+  background-color: var(--secondary-btn);
+  height: 40%;
+  width: 25%;
+}
+
+.username,
+.password {
+  font-size: 1.2rem;
+}
+
+/* LOGIN STYLES */
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-password {
+  padding-top: 0.65rem;
+  font-size: small;
+}
+
+.connection-input {
+  padding: 5px 10px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.connection-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.login-btn {
+  padding: 5px 15px;
+  background-color: var(--primary-btn);
+  border: 2px solid var(--primary-btn);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+.login-btn:hover {
+  background-color: var(--hover-btn);
+  border: 2px solid var(--hover-btn);
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: var(--text-color);
+  padding-top: 7px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.switch-btn {
+  position: relative;
+  background-color: var(--text-color);
+  color: var(--secondary-btn);
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  margin-top: 40px;
+  bottom: 10px;
+}
+
+.switch-btn:hover {
+  background-color: #2b0c0887;
+  border: 1px solid #2b0c0887;
+}
+
+/* SIGNUP STYLES */
+
+.signup-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-btn {
+  padding: 5px 15px;
+  margin-top: 1rem;
+  background-color: var(--primary-btn);
+  border: 2px solid var(--primary-btn);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+.signup-btn:hover {
+  background-color: var(--hover-btn);
+  border: 2px solid var(--hover-btn);
+}
+
+/* Forgot password page styles */
+.main-forgot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: calc(100vh - 280px);
+  width: 100%;
+}
+.main-forgot-container > h3 {
+  margin-bottom: 5%;
+  padding-top: 5%;
+  color: var(--text-color);
+}
+
+.forgot-form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px 40px;
+  background-color: var(--secondary-btn);
+  border: 4px solid (var(--secondary-btn));
+  box-shadow: 0 0 7px 3px var(--text-color);
+  border-radius: 15px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10%;
+}
+
+.forgot-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  color: var(--text-color);
+}
+
+.forgot-form > input {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: var(--text-color);
+}
+
+.forgot-form-btn {
+  background-color: var(--primary-btn);
+  border: 3px solid var(--primary-btn);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+
+.forgot-form-btn:hover {
+  background-color: var(--hover-btn);
+  border: 3px solid var(--hover-btn);
+}
+
+.forgot-form-btn:active {
+  background-color: rgb(244, 198, 198);
+  border: 3px solid rgb(244, 198, 198);
+}
+
+#birthdate {
+  cursor: text;
+}
+
+/* CODE FORM STYLES */
+.code-inputs-container {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+}
+
+.code-input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  padding: 4px 10px;
+}
+
+.code-form-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* RESET FORM STYLES */
+.reset-btn {
+  margin-top: 15px;
+}
+.diff-password {
+  display: block;
+  margin: 0;
+  padding: 10px 0 0 0;
+  font-size: small;
+  color: var(--primary-btn);
+}

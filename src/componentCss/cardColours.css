@@ -1,0 +1,277 @@
+.normal {
+  background-color: #9f9f7a;
+  box-shadow: 0px 0px 35px 8px #63634b inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #63634b inset;
+  -moz-box-shadow: 0px 0px 35px 8px #63634b inset;
+}
+.normal-img {
+  background-image: url("./normal.png");
+  background-size: cover;
+}
+.fire {
+  background-color: hsl(26, 85%, 56%);
+  box-shadow: 0px 0px 35px 8px hsl(26, 68%, 33%) inset;
+  -webkit-box-shadow: 0px 0px 35px 8px hsl(26, 68%, 33%) inset;
+  -moz-box-shadow: 0px 0px 35px 8px hsl(26, 68%, 33%) inset;
+}
+.fire-img {
+  background-image: url("./fire.png");
+  background-size: cover;
+}
+.water {
+  background-color: hsl(221, 82%, 66%);
+  box-shadow: 0px 0px 35px 8px hsl(221, 43%, 44%) inset;
+  -webkit-box-shadow: 0px 0px 35px 8px hsl(221, 43%, 44%) inset;
+  -moz-box-shadow: 0px 0px 35px 8px hsl(221, 43%, 44%) inset;
+}
+.water-img {
+  background-image: url("./water.png");
+  background-size: cover;
+}
+.electric {
+  background-color: hsl(48, 93%, 57%);
+  box-shadow: 0px 0px 35px 8px hsl(48, 71%, 40%) inset;
+  -webkit-box-shadow: 0px 0px 35px 8px hsl(48, 71%, 40%) inset;
+  -moz-box-shadow: 0px 0px 35px 8px hsl(48, 71%, 40%) inset;
+}
+.electric-img {
+  background-image: url("./electric.png");
+  background-size: cover;
+}
+.grass {
+  background-color: hsl(98, 52%, 54%);
+  box-shadow: 0px 0px 35px 8px hsl(98, 46%, 34%) inset;
+  -webkit-box-shadow: 0px 0px 35px 8px hsl(98, 46%, 34%) inset;
+  -moz-box-shadow: 0px 0px 35px 8px hsl(98, 46%, 34%) inset;
+}
+.grass-img {
+  background-image: url("./grass.png");
+  background-size: cover;
+}
+.ice {
+  background-color: hsl(177, 47%, 72%);
+  box-shadow: 0px 0px 35px 8px hsl(178, 20%, 51%) inset;
+  -webkit-box-shadow: 0px 0px 35px 8px hsl(178, 20%, 51%) inset;
+  -moz-box-shadow: 0px 0px 35px 8px hsl(178, 20%, 51%) inset;
+}
+.ice-img {
+  background-image: url("./ice.png");
+  background-size: cover;
+}
+.fighting {
+  background-color: hsl(2, 66%, 46%);
+  box-shadow: 0px 0px 35px 8px hsl(2, 67%, 26%) inset;
+  -webkit-box-shadow: 0px 0px 35px 8px hsl(2, 67%, 26%) inset;
+  -moz-box-shadow: 0px 0px 35px 8px hsl(2, 67%, 26%) inset;
+}
+.fighting-img {
+  background-image: url("./fighting.png");
+  background-size: cover;
+}
+.poison {
+  background-color: #a33ea1;
+  box-shadow: 0px 0px 35px 8px #7a2c79 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #7a2c79 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #7a2c79 inset;
+}
+.poison-img {
+  background-image: url("./poison.png");
+  background-size: cover;
+}
+.ground {
+  background-color: #e2be65;
+  box-shadow: 0px 0px 35px 8px #a88d49 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #a88d49 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #a88d49 inset;
+}
+.ground-img {
+  background-image: url("./ground.png");
+  background-size: cover;
+}
+.flying {
+  background-color: #ab90f3;
+  box-shadow: 0px 0px 35px 8px #665692 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #665692 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #665692 inset;
+}
+.flying-img {
+  background-image: url("./flying.png");
+  background-size: cover;
+}
+.psychic {
+  background-color: #f95385;
+  box-shadow: 0px 0px 35px 8px #a83558 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #a83558 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #a83558 inset;
+}
+.psychic-img {
+  background-image: url("./psychic.png");
+  background-size: cover;
+}
+.bug {
+  background-color: #a5b71a;
+  box-shadow: 0px 0px 35px 8px #66710f inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #66710f inset;
+  -moz-box-shadow: 0px 0px 35px 8px #66710f inset;
+}
+.bug-img {
+  background-image: url("./bug.png");
+  background-size: cover;
+}
+.rock {
+  background-color: #b5a036;
+  box-shadow: 0px 0px 35px 8px #685c1d inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #685c1d inset;
+  -moz-box-shadow: 0px 0px 35px 8px #685c1d inset;
+}
+.rock-img {
+  background-image: url("./rock.png");
+  background-size: cover;
+}
+.ghost {
+  background-color: #745798;
+  box-shadow: 0px 0px 35px 8px #392a4b inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #392a4b inset;
+  -moz-box-shadow: 0px 0px 35px 8px #392a4b inset;
+}
+.ghost-img {
+  background-image: url("./ghost.png");
+  background-size: cover;
+}
+.dragon {
+  background-color: #6e36fc;
+  box-shadow: 0px 0px 35px 8px #3f1c97 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #3f1c97 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #3f1c97 inset;
+}
+.dragon-img {
+  background-image: url("./dragon.png");
+  background-size: cover;
+}
+.dark {
+  background-color: #715847;
+  box-shadow: 0px 0px 35px 8px #392c24 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #392c24 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #392c24 inset;
+}
+.dark-img {
+  background-image: url("./dark.png");
+  background-size: cover;
+}
+.steel {
+  background-color: #b6b6cd;
+  box-shadow: 0px 0px 35px 8px #6f6f7e inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #6f6f7e inset;
+  -moz-box-shadow: 0px 0px 35px 8px #6f6f7e inset;
+}
+.steel-img {
+  background-image: url("./steel.png");
+  background-size: cover;
+}
+.fairy {
+  background-color: #d685ad;
+  box-shadow: 0px 0px 35px 8px #804e67 inset;
+  -webkit-box-shadow: 0px 0px 35px 8px #804e67 inset;
+  -moz-box-shadow: 0px 0px 35px 8px #804e67 inset;
+}
+.fairy-img {
+  background-image: url("./fairy.png");
+  background-size: cover;
+}
+
+.pokecard {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 2px;
+  border-radius: 11px;
+  background-color: var(--secondary-btn);
+  max-width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.poke-img > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.poke-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  grid-area: 1 / 4 / 6 / 9;
+  max-width: 100%;
+}
+
+.poke-id {
+  grid-area: 1 / 1 / 3 / 3;
+  font-size: large;
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
+}
+.poke-name {
+  grid-area: 6 / 4 / 7 / 9;
+}
+
+.poke-name > h3 {
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+}
+
+.poke-types {
+  grid-area: 4 / 1 / 7 / 3;
+}
+
+.poke-types > p {
+  margin: 0.5rem 1rem 1.2rem 2.5rem;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--text-color);
+  color: var(--secondary-btn);
+  width: 75px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Button styling */
+.btn-info-container {
+  grid-area: 8 / 4 / 9 / 6;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--primary-btn) !important;
+  --bs-btn-color: var(--text-color) !important;
+  --bs-btn-border-color: var(--primary-btn) !important;
+
+  --bs-btn-disabled-bg: var(--disabled-btn) !important;
+  --bs-btn-disabled-color: var(--text-color) !important;
+  --bs-btn-disabled-border-color: var(--disabled-btn) !important;
+
+  --bs-btn-hover-bg: var(--hover-btn) !important;
+  --bs-btn-hover-color: var(--text-color) !important;
+  --bs-btn-hover-border-color: var(--hover-btn) !important;
+
+  --bs-btn-active-bg: var(--secondary-btn) !important;
+  --bs-btn-active-color: var(--text-color) !important;
+  --bs-btn-active-border-color: var(--secondary-btn) !important;
+}
+
+.poke-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  width: 100%;
+  height: 90%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.poke-btn:hover {
+  background-color: var(--text-color);
+  color: var(--secondary-btn);
+}
