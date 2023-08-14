@@ -24,7 +24,7 @@ const PersonnalTeam = ({ pokemons, img }: Props) => {
     ? JSON.parse(localStorage.getItem("user") || "{}")
     : null;
 
-  const { data, isLoading, isFetching } = useQuery({
+  const { data, isLoading } = useQuery({
     queryKey: ["teams", teamRemoval, teamAddition],
     queryFn: async () => {
       const response = await fetch(BACKEND + "users/teams", {
