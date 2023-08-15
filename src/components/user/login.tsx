@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { BACKEND } from "../../api/url";
 
 interface Props {
   setIsLogging: React.Dispatch<React.SetStateAction<boolean>>;
@@ -14,7 +15,7 @@ const Login = ({ setIsLogging, setLogged, setUser }: Props) => {
 
   const getLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:3000/users/login", {
+    const response = await fetch(BACKEND + "users/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
