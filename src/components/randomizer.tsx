@@ -92,7 +92,7 @@ const Randomizer = ({ gens, pokemons, imgs }: Props) => {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             {selectedPokemon === null ? (
-              <img src="../../public/question-mark.svg"></img>
+              <img src="../../question-mark.svg"></img>
             ) : (
               <>
                 <div className="pokeimg">
