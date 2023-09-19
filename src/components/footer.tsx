@@ -1,5 +1,6 @@
 import "../componentCss/footer.css";
 import { Link } from "react-router-dom";
+import {BACKEND} from "../api/url"
 
 const Footer = () => {
   return (
@@ -51,7 +52,7 @@ const Footer = () => {
       <div className="footer-contact">
         <h3 className="text-white mb-3">Newsletter</h3>
         <form
-          action="http://localhost:3000/newsletter/add-newsletter"
+          action={BACKEND + "newsletter/add-newsletter"}
           method="POST"
           className="newsletter"
         >
