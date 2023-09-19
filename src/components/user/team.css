@@ -1,5 +1,5 @@
 label, h2 {
-  color: var(--text-color);
+  color: var(--text-color) !important;
 }
 
 .team-outer-container {
