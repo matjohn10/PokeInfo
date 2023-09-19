@@ -131,7 +131,7 @@
   border: 1px solid var(--text-color);
   background-color: var(--text-color);
   border-radius: 10px;
-  color: white;
+  color: white !important;
   padding: 0.15rem 0.65rem;
 }
 
