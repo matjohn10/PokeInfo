@@ -1,3 +1,7 @@
+label, h2 {
+  color: var(--text-color);
+}
+
 .team-outer-container {
   display: flex;
 
