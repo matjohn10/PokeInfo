@@ -74,6 +74,9 @@
   -webkit-box-shadow: 0 0 10px 1px var(--hover-btn);
   box-shadow: 0 0 10px 1px var(--hover-btn);
 }
+.form-check-label {
+  color: whitesmoke !important;
+}
 
 /* FLIP CARD CSS */
 .flip-card {
