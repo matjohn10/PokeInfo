@@ -9,6 +9,7 @@ lerna-debug.log*
 
 README.md
 issues
+issues/*
 
 node_modules
 dist
