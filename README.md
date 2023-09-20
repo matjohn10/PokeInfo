@@ -13,6 +13,10 @@
     the different generations of pokemons.
     <br />
     <a href="https://github.com/matjohn10/PokeInfo"><strong>Explore the docs »</strong></a>
+    ·
+    <a href="https://github.com/matjohn10/PokeInfo-server"><strong>Explore the backend »</strong></a>
+    ·
+    <a href="https://github.com/matjohn10/PokemonAPI"><strong>Explore the custom API »</strong></a>
     <br />
     <br />
     <a href="https://pokeinfo-dul5.onrender.com">View Website</a>
@@ -38,12 +42,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#website">Website URL</a></li>
+        <li><a href="#localhost">Localhost</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -54,9 +57,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![PokeInfo][product-screenshot]](https://pokeinfo-dul5.onrender.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,8 +68,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![React][React.js]][React-url]
 * [![Vite][Vite.js]][Vite-url]
-<!-- Add all other ones here -->
+* [![Typescript][Typescript]][Typescript-url]
+* [![Mongoose][Mongoose]][Mongoose-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![Axios][Axios]][Axios-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,32 +80,21 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The project can be accessed directly in the browser or on your local machine (Localhost)
 
-### Prerequisites
+### Website
+* URL:
+  [https://pokeinfo-dul5.onrender.com](https://pokeinfo-dul5.onrender.com)
+  
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Localhost
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
+1. Download the frontend code: [Source][source-front]
+2. In terminal, "cd" into the project folder and run
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+   npm run dev
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. The server and API are already running publicly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,24 +102,28 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Look at the different pages available on the website:
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Carousel
+View the different generations in a fun way
+<br/>
+[![PokeInfo][product-screenshot2]](https://pokeinfo-dul5.onrender.com/carousel)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Pokedex
+View the whole pokedex from generation 1 to 9
+<br/>
+[![PokeInfo][product-screenshot3]](https://pokeinfo-dul5.onrender.com/pokedex)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Randomizer
+Get a random pokemon and its type information
+<br/>
+[![PokeInfo][product-screenshot4]](https://pokeinfo-dul5.onrender.com/randomizer)
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+### Personal Teams
+View and build your personal pokemon teams!
+* Require signup and login.
+<br/>
+[![PokeInfo][product-screenshot5]](https://pokeinfo-dul5.onrender.com/login)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,9 +143,8 @@ Project Links: <a href="https://github.com/matjohn10/PokeInfo" target="_blank">F
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [https://www.pokemon.com/us](https://www.pokemon.com/us)
+* [https://tenor.com/en-CA/](https://tenor.com/en-CA/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,10 +164,22 @@ Project Links: <a href="https://github.com/matjohn10/PokeInfo" target="_blank">F
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: readme_images/screenshot1.png
+[product-screenshot2]: readme_images/screenshot2.png
+[product-screenshot3]: readme_images/screenshot3.png
+[product-screenshot4]: readme_images/screenshot4.png
+[product-screenshot5]: readme_images/screenshot5.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vite.js]: https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=#8b74fe
+[Vite.js]: https://img.shields.io/badge/Vite-8180fe?style=for-the-badge&logo=vite&logoColor=ffcd25
 [Vite-url]: https://vitejs.dev
+[Typescript]: https://img.shields.io/badge/Typescript-3178c6?style=for-the-badge&logo=typescript&logoColor=white
+[Mongoose-url]: https://mongoosejs.com
+[Mongoose]: https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white
+[Axios]: https://img.shields.io/badge/Axios-e7e1fb?style=for-the-badge&logo=axios&logoColor=6c44e4
+[Axios-url]: https://www.npmjs.com/package/axios
+[Typescript-url]: https://www.typescriptlang.org
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[url]:https://pokeinfo-dul5.onrender.com
+[source-front]: https://github.com/matjohn10/PokeInfo
