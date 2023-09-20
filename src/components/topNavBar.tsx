@@ -21,7 +21,24 @@ const TopNavBar = ({
   return (
     <nav className="navbar navbar-expand-lg red-nav">
       <div className="container-fluid  nav-spacing">
-        <Link to="/" className="brand-link">
+        <Link
+          to="/"
+          className="brand-link"
+          style={{
+            display: "flex",
+            gap: "1rem",
+          }}
+        >
+          <img
+            src="../../logo.PNG"
+            alt="Logo"
+            style={{
+              height: "1.8rem",
+              width: "1.8rem",
+              margin: "0",
+              padding: "0",
+            }}
+          />
           PokeInfo
         </Link>
 
