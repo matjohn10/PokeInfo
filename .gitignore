@@ -10,6 +10,8 @@ lerna-debug.log*
 README.md
 issues
 issues/*
+readme_images
+readme_images/*
 
 node_modules
 dist
