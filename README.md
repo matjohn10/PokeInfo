@@ -123,6 +123,7 @@ Get a random pokemon and its type information
 View and build your personal pokemon teams!
 * Require signup and login.
 <br/>
+
 [![PokeInfo][product-screenshot5]](https://pokeinfo-dul5.onrender.com/login)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
