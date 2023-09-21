@@ -8,7 +8,7 @@
 <h3 align="center">PokeInfo</h3>
 
   <p align="center">
-    This a fun project that I made to learn many aspects of web development, such as ReactJs, Typescript, APIs, ExpressJs, etc.    
+    This a fun full stack web app project that I made to learn many aspects of web development, such as ReactJs, Typescript, APIs, ExpressJs, etc.    
     The site displays pokemon informations, such as their name, type(s), strengths and weaknesses, and a short description. I have implemented my own carousel for a fun way to discover   
     the different generations of pokemons.
     <br />
