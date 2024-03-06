@@ -100,7 +100,7 @@ const PokeCardContainer = ({
       </div>
       <div className="add-btn-container">
         <button onClick={addClick}>Add</button>
-        <button onClick={minusClick}>Minus</button>
+        {/* <button onClick={minusClick}>Minus</button> */}
       </div>
     </div>
   );

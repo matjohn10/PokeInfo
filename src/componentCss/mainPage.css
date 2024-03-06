@@ -81,18 +81,21 @@
   flex-direction: column;
   align-items: center;
   height: 500px;
+  margin-top: 1rem;
 }
 
 .cards-relative {
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .add-btn-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 150px;
-  padding-top: 30%;
 }
 
 .add-btn-container > button {
@@ -111,7 +114,7 @@
 
 .move-test {
   position: absolute;
-  top: 35%;
+  top: 0;
   color: var(--text-color);
   overflow: hidden;
   border-radius: 14px;
