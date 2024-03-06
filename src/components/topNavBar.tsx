@@ -43,7 +43,7 @@ const TopNavBar = ({
         </Link>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 nav-spacing">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 nav-spacing mynav-css">
             <li className="nav-item li-outline-light">
               <Link to="/" className="link-white">
                 Home

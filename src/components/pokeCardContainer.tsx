@@ -21,7 +21,6 @@ const PokeCardContainer = ({
   handlePosition,
   handlePosChange,
   addClick,
-  minusClick,
   setCarouselName,
 }: Props) => {
   // Make a function that takes the gen range and makes array of 'Card',
